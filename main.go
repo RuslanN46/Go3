@@ -33,7 +33,7 @@ func loadTemplates() {
 // welcomHandler handles root URL
 
 func welcomeHandler(w http.ResponseWriter, r *http.Request) {
-	templates["welcom"].Execute(w, nil)
+	templates["welcome"].Execute(w, nil)
 }
 
 // ListHandler handles "/list" URL
